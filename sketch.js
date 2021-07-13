@@ -18,10 +18,11 @@ function setup() {
 }
 
 function draw() {
-  background("white");
+  background(r,g,b);
    btn_red.mousePressed(red_bg);
    btn_green.mousePressed(green_bg);
 
+   
 }
 
 function green_bg()
